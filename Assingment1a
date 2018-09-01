@@ -1,0 +1,42 @@
+"""
+
+Assingment number 1
+
+Write a Python program which prompts the user for a Celsius temperature, converts the
+temperature to Fahrenheit, and prints out the converted temperature
+
+SOUMIL SHAH
+Bachelor in Electronic Engineering
+Master in Electrical Engineering
+Master in Computer Engineering
+
+
+"""
+
+def temperature():
+    formula= 0
+    # Take input from user
+    cel = input("Enter Temperature in Celsius ! ")
+    # convert string into float
+
+    cel=float(cel)
+    # do the calculation for converting temperature
+    fahrenheit= cel * (9/5) + 32
+
+    print("Temperature in Fahrenheit {} ".format(fahrenheit))
+
+    return fahrenheit
+
+while True:
+    temperature()
+
+
+
+
+
+
+
+
+
+
+
